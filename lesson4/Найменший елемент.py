@@ -15,6 +15,9 @@ for i in lis:
     if i < a:
         a = i
 if a < 0:
+    lis.remove(a)
     lis.append(a)
-lis.insert(0, a)
+else:
+    lis.remove(a)
+    lis.insert(0, a)
 print(lis)

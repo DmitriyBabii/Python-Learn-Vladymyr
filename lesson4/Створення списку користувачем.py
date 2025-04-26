@@ -1,5 +1,3 @@
-word = input("Введіть слово :  ")
-str = []
-for i in word:
-    str.append(i)
-print(str)
+word = list(input("Введіть слово :  "))
+
+print(word)

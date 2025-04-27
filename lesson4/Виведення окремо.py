@@ -13,7 +13,7 @@ lis = ["Андрій", "Іван", "Василь", "Петро", "Максим",
 # й # окремо
 """
 lis = ["Андрій", "Іван", "Василь", "Петро", "Максим", "Діма"]
-for i in lis:
-    print(i)
-    for j in i:
-        print(j)
+for name in lis:
+    print(name)
+    for name_symbol in name:
+        print(name_symbol)

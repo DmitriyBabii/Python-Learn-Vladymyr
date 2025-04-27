@@ -14,10 +14,12 @@ a = lis[0]
 for i in lis:
     if i < a:
         a = i
+
+lis.remove(a)
+
 if a < 0:
-    lis.remove(a)
     lis.append(a)
 else:
-    lis.remove(a)
     lis.insert(0, a)
+
 print(lis)

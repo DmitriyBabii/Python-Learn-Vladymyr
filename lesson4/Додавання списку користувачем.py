@@ -13,8 +13,8 @@ some = [9, "Hi", 23.5, "A"]
 """
 
 n = int(input("Введіть змінну N:  "))
-some = []
+some = [9, "Hi", 23.5, "A"]
 for i in range(n):
-    i = int(input("Введіть в список новий елемент:  "))
+    i = input("Введіть в список новий елемент:  ")
     some.append(i)
     print(some)

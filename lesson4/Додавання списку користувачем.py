@@ -15,6 +15,6 @@ some = [9, "Hi", 23.5, "A"]
 n = int(input("Введіть змінну N:  "))
 some = [9, "Hi", 23.5, "A"]
 for i in range(n):
-    i = input("Введіть в список новий елемент:  ")
-    some.append(i)
+    user_input = input("Введіть в список новий елемент:  ")
+    some.append(user_input)
     print(some)

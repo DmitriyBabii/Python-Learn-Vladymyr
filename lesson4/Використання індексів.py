@@ -5,5 +5,5 @@
 list = [3.4, 56, "Some", "Hi", 7, 3.8, 44]
 """
 
-list = [3.4, 56, "Some", "Hi", 7, 3.8, 44]
-print(list[-3])
+mass = [3.4, 56, "Some", "Hi", 7, 3.8, 44]
+print(mass[-3])

@@ -14,9 +14,9 @@
 """
 
 data = {}
-num = int(input("Введіть кількість елементів: "))
-for i in range(num):
-    a = input("Введіть ключ: ")
-    b = input("Введіть значення: ")
-    data[a] = b
+num_of_elements = int(input("Введіть кількість елементів: "))
+for i in range(num_of_elements):
+    key = input("Введіть ключ: ")
+    value = input("Введіть значення: ")
+    data[key] = value
 print(data)

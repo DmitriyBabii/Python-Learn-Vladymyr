@@ -10,9 +10,9 @@
 
 data = {a: a**2 for a in range(1, 10, 2)}
 print(data)
-print(" ")
+print()
 for el in data:
     print(data[el])
-print(" ")
+print()
 for key, values in data.items():
     print(key, values, sep="-")

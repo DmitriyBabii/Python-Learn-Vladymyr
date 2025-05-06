@@ -4,5 +4,5 @@
 
 data = set()
 data.add(7)
-data.update([23, 4, "yes"])
+data.update({23, 4, "yes"})
 print(data)

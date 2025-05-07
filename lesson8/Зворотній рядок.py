@@ -9,6 +9,6 @@ text_reverse = text[::-1]
 print(text)
 print(text_reverse)
 if text == text_reverse:
-    print("Цей рядок паліндромом !")
+    print("Цей рядок паліндром !")
 else:
-    print("Цей не рядок паліндромом !")
+    print("Це не паліндром !")

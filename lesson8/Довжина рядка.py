@@ -4,8 +4,6 @@
 
 text = input("Введіть рядок: ")
 def num(text):
-    text = list(text)
-    n = len(text)
-    return n
+    return len(text)
 print(num(text))
 

@@ -8,3 +8,4 @@ def num(text):
     n = len(text)
     return n
 print(num(text))
+

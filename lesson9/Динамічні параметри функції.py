@@ -3,12 +3,12 @@
 Виведіть суму всіх переданих параметрів.
 """
 
-def summa(*args):
-    x = 0
-    for i in args:
-        x += i
-    print(x)
+def find_sum(*args):
+    sum = 0
+    for el in args:
+        sum += el
+    print(sum)
 
 
 
-summa(4, 5, 6, 5)
+find_sum(4, 5, 6, 5)

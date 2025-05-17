@@ -5,10 +5,10 @@
 """
 
 # 1 variant
-def anonim(*args):
-    print(args)
-
-anonim(2, 3, 4 ,5, "G G G")
+# def anonim(*args):
+#     print(args)
+#
+# anonim(2, 3, 4 ,5, "G G G")
 
 # 2 variant
 anonim = lambda *args: print(args)

@@ -4,19 +4,19 @@
 Важливо: не використовуйте вбудовані функції в Python.
 """
 
-def max_el(j):
-    num = j[0]
-    for el in j:
-        if el > num:
-            num = el
-    print(num)
+def max_el(nums):
+    max_num = nums[0]
+    for el in nums:
+        if el > max_num:
+            max_num = el
+    print(max_num)
 
 data = input("Введіть елементи списку через кому: ")
-data = data.split(",")
+data_list = data.split(",")
 
 nums=[]
 
-for i in range(len(data)):
-    nums.append(float(data[i]))
+for el in data_list:
+    nums.append(float(el))
 
 max_el(nums)

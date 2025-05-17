@@ -4,14 +4,14 @@
 """
 
 
-def new_mass(size, text):
+def new_mass(text, size):
     mass = []
-    split_text = text.split(" ")
-    for el in split_text:
+    words = text.split(" ")
+    for el in words:
         if len(el) > size:
             mass.append(el)
     return mass
 
 num = int(input("Введіть бажану довжену слів: "))
 text = input("Введіть слова: ")
-print(new_mass(num, text))
+print(new_mass(text, num))

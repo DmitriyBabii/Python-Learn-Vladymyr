@@ -11,8 +11,8 @@ def about(num):
     if num < 1000:
         print(num)
     else:
-        num = round(num/1000, 1)
-        print(f"{num}K")
+        print(f"{round(num / 1000, 1)}K")
+
 
 num = int(input("Введіть число: "))
 about(num)
